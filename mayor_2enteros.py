@@ -10,17 +10,15 @@ y = int(input("Digite el valor de y:"))
 
 # processing
 if X == y:
+    # output
     print("Los numeros son iguales...")
-
 else:
     if X > y:
         mayor = X
     else:
-        mayor = y
-        print("El mayor entre" + str(X) + " y " + str(y) + " es " + str(mayor))    
- 
-#output
-print("----------------------------------------")
-print("--------------RESULTADOS----------------")
-print("----------------------------------------")
-print("EL MAYOR ENTRE: " + str(X) + " y " + str(y) + " es " + str(mayor))
+        mayor = y  
+        # output
+        print("----------------------------------------")
+        print("--------------RESULTADOS----------------")
+        print("----------------------------------------")
+        print("EL MAYOR ENTRE: " + str(X) + " y " + str(y) + " es " + str(mayor))
