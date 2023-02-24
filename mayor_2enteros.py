@@ -5,20 +5,20 @@ print("-------------ENTERO MAYOR---------------")
 print("----------------------------------------")
 
 # input
-X = int(input("Digite el valor de x: "))
+x = int(input("Digite el valor de x: "))
 y = int(input("Digite el valor de y:"))
 
 # processing
-if X == y:
+if x == y:
     # output
     print("Los numeros son iguales...")
 else:
-    if X > y:
-        mayor = X
+    if x > y:
+        mayor = x
     else:
         mayor = y  
         # output
-        print("----------------------------------------")
-        print("--------------RESULTADOS----------------")
-        print("----------------------------------------")
-        print("EL MAYOR ENTRE: " + str(X) + " y " + str(y) + " es " + str(mayor))
+    print("----------------------------------------")
+    print("--------------RESULTADOS----------------")
+    print("----------------------------------------")
+    print("EL MAYOR ENTRE: " + str(x) + " y " + str(y) + " es " + str(mayor))
